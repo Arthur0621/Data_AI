@@ -16,6 +16,19 @@ A deep learning project for flower classification using CNN and transfer learnin
 - Interactive GUI application
 - Real-time webcam prediction
 
+### 2. [Action Recognition with Transformer](./action-recognition-transformer)
+
+Real-time human action recognition using Vision Transformer (ViT) and YOLOv5 for person detection.
+
+**Technologies:** PyTorch, Transformers, YOLOv5, Flask, OpenCV
+
+**Features:**
+- Vision Transformer (ViT) for action classification
+- YOLOv5 person detection
+- Real-time webcam inference with Flask web app
+- 15 action classes recognition
+- ~84% validation accuracy
+
 ---
 
 ## 🚀 Getting Started
