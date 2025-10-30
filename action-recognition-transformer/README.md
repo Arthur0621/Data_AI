@@ -148,9 +148,14 @@ The model was trained with:
 
 Training stopped at epoch 6 due to early stopping (best validation accuracy: 83.87%).
 
-## 📝 Dataset Structure
+## 📝 Dataset
 
-Organize your dataset as follows:
+### Download Dataset
+
+Download the dataset from Google Drive:
+- **[Action Recognition Dataset](https://drive.google.com/file/d/1k-Q-XmZ_fwec5SthM1Io3vEt6E-MmPTo/view?usp=sharing)**
+
+Extract the dataset and organize it as follows:
 
 ```
 data/
@@ -173,6 +178,11 @@ data/
 └── test_data/
     └── (same structure as train_data)
 ```
+
+**Dataset Statistics:**
+- **Total classes:** 15 action categories
+- **Training set:** 12,000 images (800 per class)
+- **Test set:** 3,000 images (200 per class)
 
 ## 🔧 Configuration
 
